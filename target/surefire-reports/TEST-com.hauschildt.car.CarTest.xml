@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="14" failures="12" name="com.hauschildt.car.CarTest" time="0.096" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\k0519415\Java2b\CarDataProject"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\k0519415\Java2b\CarDataProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\k0519415\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-11.3\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans-11.3\netbeans\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Oculus\Support\oculus-runtime;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\k0519415\AppData\Local\Programs\AdoptOpenJDK\bin;C:\Users\k0519415\AppData\Local\Programs\Python\Launcher\;C:\Users\k0519415\AppData\Local\Microsoft\WindowsApps;C:\Users\k0519415\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\k0519415\AppData\Local\Programs\Git\cmd;;C:\Users\k0519415\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2020.2\bin;;C:\Users\k0519415\AppData\Roaming\npm;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\k0519415"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="k0519415"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans-11.3\netbeans\java\maven\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.3\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans-11.3\netbeans\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.hauschildt.car.CarTest" name="com.hauschildt.car.CarTest.testGetModelYear" time="0.056">
+    <failure message="expected: &lt;0&gt; but was: &lt;2020&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;0&gt; but was: &lt;2020&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
+	at com.hauschildt.car.CarTest.testGetModelYear(CarTest.java:125)
+</failure>
+    <system-out>getModelYear
+</system-out>
+  </testcase>
+  <testcase classname="com.hauschildt.car.CarTest" name="com.hauschildt.car.CarTest.testSetMake" time="0.001">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at com.hauschildt.car.CarTest.testSetMake(CarTest.java:86)
+</failure>
+    <system-out>setMake
+</system-out>
+  </testcase>
+  <testcase classname="com.hauschildt.car.CarTest" name="com.hauschildt.car.CarTest.testSetModelYear" time="0">
+    <failure message="Model Year cannot be earlier than 1893." type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Model Year cannot be earlier than 1893.
+	at com.hauschildt.car.Car.validateModelYear(Car.java:84)
+	at com.hauschildt.car.Car.setModelYear(Car.java:74)
+	at com.hauschildt.car.CarTest.testSetModelYear(CarTest.java:138)
+</failure>
+    <system-out>setModelYear
+</system-out>
+  </testcase>
+  <testcase classname="com.hauschildt.car.CarTest" name="com.hauschildt.car.CarTest.testToString" time="0.029">
+    <failure message="expected: &lt;&gt; but was: &lt;2020 UNKNOWN UNKNOWN&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;&gt; but was: &lt;2020 UNKNOWN UNKNOWN&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at com.hauschildt.car.CarTest.testToString(CarTest.java:175)
+</failure>
+    <system-out>toString
+</system-out>
+  </testcase>
+  <testcase classname="com.hauschildt.car.CarTest" name="com.hauschildt.car.CarTest.testGetModel" time="0.001">
+    <failure message="expected: &lt;&gt; but was: &lt;UNKNOWN&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;&gt; but was: &lt;UNKNOWN&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at com.hauschildt.car.CarTest.testGetModel(CarTest.java:98)
+</failure>
+    <system-out>getModel
+</system-out>
+  </testcase>
+  <testcase classname="com.hauschildt.car.CarTest" name="com.hauschildt.car.CarTest.testSetModel" time="0.001">
+    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at com.hauschildt.car.CarTest.testSetModel(CarTest.java:113)
+</failure>
+    <system-out>setModel
+</system-out>
+  </testcase>
+  <testcase classname="com.hauschildt.car.CarTest" name="com.hauschildt.car.CarTest.testGetMake" time="0.001">
+    <failure message="expected: &lt;&gt; but was: &lt;UNKNOWN&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;&gt; but was: &lt;UNKNOWN&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at com.hauschildt.car.CarTest.testGetMake(CarTest.java:71)
+</failure>
+    <system-out>getMake
+</system-out>
+  </testcase>
+  <testcase classname="com.hauschildt.car.CarTest" name="com.hauschildt.car.CarTest.testCompareToEqual" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.hauschildt.car.Car.compareTo(Car.java:100)
+	at com.hauschildt.car.CarTest.testCompareToEqual(CarTest.java:213)
+</failure>
+    <system-out>compareTo
+</system-out>
+  </testcase>
+  <testcase classname="com.hauschildt.car.CarTest" name="com.hauschildt.car.CarTest.testCompareToPositive" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.hauschildt.car.Car.compareTo(Car.java:100)
+	at com.hauschildt.car.CarTest.testCompareToPositive(CarTest.java:189)
+</failure>
+    <system-out>compareTo
+</system-out>
+  </testcase>
+  <testcase classname="com.hauschildt.car.CarTest" name="com.hauschildt.car.CarTest.testGetLowestAllowedModelYear" time="0.002">
+    <failure message="expected: &lt;0&gt; but was: &lt;2021&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;0&gt; but was: &lt;2021&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
+	at com.hauschildt.car.CarTest.testGetLowestAllowedModelYear(CarTest.java:161)
+</failure>
+    <system-out>getHighestAllowedModelYear
+</system-out>
+  </testcase>
+  <testcase classname="com.hauschildt.car.CarTest" name="com.hauschildt.car.CarTest.testGetHighestAllowedModelYear" time="0.002">
+    <failure message="expected: &lt;0&gt; but was: &lt;2021&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;0&gt; but was: &lt;2021&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
+	at com.hauschildt.car.CarTest.testGetHighestAllowedModelYear(CarTest.java:151)
+</failure>
+    <system-out>getHighestAllowedModelYear
+</system-out>
+  </testcase>
+  <testcase classname="com.hauschildt.car.CarTest" name="com.hauschildt.car.CarTest.testSetLicensePlate" time="0"/>
+  <testcase classname="com.hauschildt.car.CarTest" name="com.hauschildt.car.CarTest.testGetLicensePlate" time="0"/>
+  <testcase classname="com.hauschildt.car.CarTest" name="com.hauschildt.car.CarTest.testCompareToNegative" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.hauschildt.car.Car.compareTo(Car.java:100)
+	at com.hauschildt.car.CarTest.testCompareToNegative(CarTest.java:201)
+</failure>
+    <system-out>compareTo
+</system-out>
+  </testcase>
+</testsuite>

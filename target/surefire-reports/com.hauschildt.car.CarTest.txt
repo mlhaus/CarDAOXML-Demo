@@ -1,0 +1,91 @@
+-------------------------------------------------------------------------------
+Test set: com.hauschildt.car.CarTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 0.1 sec <<< FAILURE!
+com.hauschildt.car.CarTest.testGetModelYear()  Time elapsed: 0.056 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <2020>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
+	at com.hauschildt.car.CarTest.testGetModelYear(CarTest.java:125)
+
+com.hauschildt.car.CarTest.testSetMake()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at com.hauschildt.car.CarTest.testSetMake(CarTest.java:86)
+
+com.hauschildt.car.CarTest.testSetModelYear()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Model Year cannot be earlier than 1893.
+	at com.hauschildt.car.Car.validateModelYear(Car.java:84)
+	at com.hauschildt.car.Car.setModelYear(Car.java:74)
+	at com.hauschildt.car.CarTest.testSetModelYear(CarTest.java:138)
+
+com.hauschildt.car.CarTest.testToString()  Time elapsed: 0.029 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <2020 UNKNOWN UNKNOWN>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at com.hauschildt.car.CarTest.testToString(CarTest.java:175)
+
+com.hauschildt.car.CarTest.testGetModel()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <UNKNOWN>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at com.hauschildt.car.CarTest.testGetModel(CarTest.java:98)
+
+com.hauschildt.car.CarTest.testSetModel()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at com.hauschildt.car.CarTest.testSetModel(CarTest.java:113)
+
+com.hauschildt.car.CarTest.testGetMake()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <UNKNOWN>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at com.hauschildt.car.CarTest.testGetMake(CarTest.java:71)
+
+com.hauschildt.car.CarTest.testCompareToEqual()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hauschildt.car.Car.compareTo(Car.java:100)
+	at com.hauschildt.car.CarTest.testCompareToEqual(CarTest.java:213)
+
+com.hauschildt.car.CarTest.testCompareToPositive()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hauschildt.car.Car.compareTo(Car.java:100)
+	at com.hauschildt.car.CarTest.testCompareToPositive(CarTest.java:189)
+
+com.hauschildt.car.CarTest.testGetLowestAllowedModelYear()  Time elapsed: 0.002 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <2021>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
+	at com.hauschildt.car.CarTest.testGetLowestAllowedModelYear(CarTest.java:161)
+
+com.hauschildt.car.CarTest.testGetHighestAllowedModelYear()  Time elapsed: 0.002 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <2021>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
+	at com.hauschildt.car.CarTest.testGetHighestAllowedModelYear(CarTest.java:151)
+
+com.hauschildt.car.CarTest.testCompareToNegative()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hauschildt.car.Car.compareTo(Car.java:100)
+	at com.hauschildt.car.CarTest.testCompareToNegative(CarTest.java:201)
+
